@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react';
 import IngredientList from './IngredientsList';
+import { RecipeContext } from './App';
 
 export default function Recipe(props) {
-  const { id, name, cookingTime, servings, instructions, ingredients, handleRecipeDelete } = props
+  const { id, name, cookingTime, servings, instructions, ingredients } = props;
+  const { handleRecipeDelete } = useContext(RecipeContext);
+
   return (
     <div className='recipe'>
       <div className='recipe__header'>
