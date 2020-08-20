@@ -1,5 +1,6 @@
 import React from 'react';
 import RecipeList from './RecipeList';
+import '../css/app.css';
 
 function App() {
   const sampleRecipes = [
@@ -8,7 +9,7 @@ function App() {
       name: 'Plain Chicken',
       servings: 3,
       cookingTime: '1:45',
-      instructions: '1. blah\n 2. blah? blah?',
+      instructions: "1. blah\n2. blah? blah?",
       ingredients: [
         {
           id: 1,
