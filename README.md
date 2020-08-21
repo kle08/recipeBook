@@ -1,8 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Recipe Book
 
-In the project directory, you can run:
+The purpose of this project is to implement typescript. To be able to figure out the ins 
+and outs of how typecript works. This web application demostrates CRUD functionality.
+
 
 ### `npm start`
 
